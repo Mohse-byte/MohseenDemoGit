@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'gameofchats' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for gameofchats
+pod 'Firebase/Analytics'
+pod 'FirebaseDatabase', '~> 6.1'
+pod 'FirebaseAuth', '~> 6.4'
+pod 'FirebaseStorage', '~> 3.5'
+
+end
